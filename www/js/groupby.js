@@ -55,12 +55,6 @@
 			element.prepend(
 				'<div class="item item-divider ng-hide" ng-show="item.isDivider" ng-bind="item.divider"></div>'
 			);
-
-			return function postLink(scope, element, attr) {
-				scope.$watch('item.isDivider', function(divider) {
-					element.toggleClass('item-divider', divider)
-				});
-			}
 		}
 	});
 
