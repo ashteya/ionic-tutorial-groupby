@@ -41,7 +41,7 @@
 
 	})
 
-	.directive('dividerMonthYear', function($parse) {
+	.directive('dividerCollectionRepeat', function($parse) {
 		return {
 			priority: 1001,
 			compile: compile
