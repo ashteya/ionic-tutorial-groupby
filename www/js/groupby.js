@@ -19,7 +19,7 @@
 					currentDate.month() != previousDate.month() ||
 					currentDate.year() != previousDate.year()) {
 
-					var dividerId = currentDate.format('MMYYYYY');
+					var dividerId = currentDate.format('MMYYYY');
 					
 					if (!dividers[dividerId]) {
 						dividers[dividerId] = {
